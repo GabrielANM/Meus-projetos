@@ -1,0 +1,11 @@
+x= input("Digite a primeira nota:") 
+print()
+y= input("Digite a segunda nota:") 
+print()
+z= input("Digite a terceira nota:") 
+print()
+d= input("Digite a quarta nota:") 
+print()
+media = ((int(x) + int(y) + int(z) + int(d)) / 4)
+
+print("A média aritmética é", media) 

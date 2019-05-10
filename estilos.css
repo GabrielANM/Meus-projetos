@@ -1,0 +1,57 @@
+body {
+    
+    font-family: sans-serif;
+    text-align: justify;
+    font-family: 'Gugi', cursive;
+
+}
+
+h2{
+
+    color: #40c4ff;
+    text-decoration: underline;
+
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+li {
+
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+abbr {
+
+    text-decoration: none;
+
+}
+
+strong {
+
+    color: red; 
+ 
+}
+
+em {
+
+    color: green;
+
+}
+
+mark {
+
+    color: red;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}

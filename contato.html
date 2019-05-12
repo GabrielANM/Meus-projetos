@@ -4,18 +4,62 @@
     <head>
         <meta charset="utf-8">
         <title>CV - Gabriel Alexandre Negri Machado</title>
+        <link href="css/form.css" rel="stylesheet">
     </head>
 
     <body>
         <h1> Contato de Formulario </h1>
-        <label for="name"> Nome e sobrenome: </label>
-        <input type="text" name="usuario" value="" required/>
-        <br>
-        <label for="email"> Email: </label>
-        <input type="email" name="email" value="" required/>
-    </body>
-    
+        <form action="">
+            <label for="name"> Nome e sobrenome: </label>
+            <input type="text" name="usuario" value="" required/>
+            <br>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" value="" required/>
+            <br>
+            
+            <br>
+            <label for="assuntos">Assunto da mensagem </label>
+            <select name="assuntos">
+                <option value="Ee">Entrevista de emprego</option>
+                <option value="Eestag">Entrevista de estagio</option>
+                <option value="Et">Entrevista de trainee</option>
+            </select>
+            <br>
+
+            <br>
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero" value="Feminino"> Feminino
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Prefiro não informar"> Prefiro não informar
+            <br>
+
+            <br>
+            <label for="checkbox"> Passatempos: </label> <br>
+            <input type="checkbox" name="hobbies" value="Surf"> Surf <br>
+            <input type="checkbox" name="hobbies" value="Books"> Livros <br>
+            <input type="checkbox" name="hobbies" value="Music"> Música <br>
+            <input type="checkbox" name="hobbies" value="games"> Jogos <br>
+            <input type="checkbox" name="hobbies" value="movies"> Filmes <br>
+
+            <br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea name="comentarios"> </textarea>
+
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+            <br>
+        
+            <br>
+            <a href="./gabriel.html">Ir para currículo!</a>
+            
+            <br>
+            <img src="./maxresdefault.jpg" alt="ganfalf">
+
+        </form>
 
 
-    
+
+
+    </body>  
 </html>

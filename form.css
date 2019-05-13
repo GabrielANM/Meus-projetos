@@ -1,8 +1,8 @@
 input:focus {
-  background-color: #FFC;
+  background-color: rgb(241, 204, 255);
 }
 textarea:focus{
-  background-color: #FFC;
+  background-color: rgb(243, 204, 255);
 }
 
 textarea {
@@ -28,15 +28,22 @@ img {
 
 }
 
-img:hover {
+img {
 
  border-radius: 50%;
-
+ 
 
 }
 
 body {
 
-  background-color: rgb(194, 199, 194); 
+  background-color: rgb(220, 234, 247); 
+
+}
+
+.image{
+
+  width: 40px;
+  height: 40px;
 
 }

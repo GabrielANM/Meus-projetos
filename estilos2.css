@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+body {
+
+
+    font-family: 'Gugi'  , sans-serif;
+
+}
+
+h1{
+    
+    text-align: center;
+    color: rgb(82, 164, 175);
+    
+}
+
+p{
+
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
